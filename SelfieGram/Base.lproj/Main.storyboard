@@ -13,18 +13,52 @@
         <!--Profile Controller-->
         <scene sceneID="qoU-ZK-IPH">
             <objects>
-                <viewController title="Profile Controller" id="yig-Zy-CXV" sceneMemberID="viewController">
+                <viewController title="Profile Controller" id="yig-Zy-CXV" customClass="ProfileViewController" customModule="SelfieGram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cFw-ND-oiT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="nuI-Hz-KQd">
+                                <rect key="frame" x="97.5" y="110" width="180" height="185"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="185" id="nlw-yq-b8S"/>
+                                    <constraint firstAttribute="width" constant="180" id="zJr-N7-Jm1"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UserName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EIE-zB-scj">
+                                <rect key="frame" x="146.5" y="325" width="82" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kLy-um-vSb">
+                                <rect key="frame" x="84" y="303" width="54" height="30"/>
+                                <state key="normal" title="Camera"/>
+                                <connections>
+                                    <action selector="cameraButtonPressed:" destination="yig-Zy-CXV" eventType="touchUpInside" id="cYO-st-XBk"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="EIE-zB-scj" firstAttribute="top" secondItem="nuI-Hz-KQd" secondAttribute="bottom" constant="30" id="3Fd-ZT-ecl"/>
+                            <constraint firstItem="kLy-um-vSb" firstAttribute="top" secondItem="nuI-Hz-KQd" secondAttribute="bottom" constant="8" id="GYq-fc-Duq"/>
+                            <constraint firstItem="nuI-Hz-KQd" firstAttribute="centerX" secondItem="cFw-ND-oiT" secondAttribute="centerX" id="KB6-kR-vMn"/>
+                            <constraint firstItem="nuI-Hz-KQd" firstAttribute="top" secondItem="dsl-Tp-Qxg" secondAttribute="top" constant="46" id="Mb8-wi-2Sz"/>
+                            <constraint firstItem="EIE-zB-scj" firstAttribute="centerX" secondItem="cFw-ND-oiT" secondAttribute="centerX" id="hCr-4b-tex"/>
+                            <constraint firstItem="nuI-Hz-KQd" firstAttribute="leading" secondItem="kLy-um-vSb" secondAttribute="trailing" constant="-45.5" id="o9d-kB-bOE"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="dsl-Tp-Qxg"/>
                     </view>
                     <navigationItem key="navigationItem" id="Dtc-fL-8hf"/>
+                    <connections>
+                        <outlet property="ProfileViewController" destination="nuI-Hz-KQd" id="Ybe-sw-psr"/>
+                        <outlet property="usernameLabel" destination="EIE-zB-scj" id="fxp-Fc-6Ey"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L0U-o0-9pK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1735" y="-582"/>
+            <point key="canvasLocation" x="1733.5999999999999" y="-582.45877061469275"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="x7q-oV-ZO1">
@@ -174,5 +208,6 @@
         <image name="Activities" width="25" height="25"/>
         <image name="NewsFeed" width="25" height="25"/>
         <image name="Profile" width="25" height="25"/>
+        <image name="placeholder" width="256" height="256"/>
     </resources>
 </document>
