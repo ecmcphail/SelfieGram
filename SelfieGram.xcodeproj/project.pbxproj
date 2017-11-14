@@ -15,6 +15,9 @@
 		A7D7D6B41FBA4C1F00568848 /* SelfieGramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D7D6B31FBA4C1F00568848 /* SelfieGramTests.swift */; };
 		A7D7D6BF1FBA4C1F00568848 /* SelfieGramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D7D6BE1FBA4C1F00568848 /* SelfieGramUITests.swift */; };
 		A7D7D6CD1FBA5BEF00568848 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D7D6CC1FBA5BEF00568848 /* ProfileViewController.swift */; };
+		A7D7D6CF1FBA999E00568848 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D7D6CE1FBA999E00568848 /* User.swift */; };
+		A7D7D6D11FBA9B5B00568848 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D7D6D01FBA9B5B00568848 /* Post.swift */; };
+		A7D7D6D31FBAA58E00568848 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D7D6D21FBAA58E00568848 /* FeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		A7D7D6BE1FBA4C1F00568848 /* SelfieGramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieGramUITests.swift; sourceTree = "<group>"; };
 		A7D7D6C01FBA4C1F00568848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7D7D6CC1FBA5BEF00568848 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		A7D7D6CE1FBA999E00568848 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A7D7D6D01FBA9B5B00568848 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		A7D7D6D21FBAA58E00568848 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,8 @@
 		A7D7D6921FBA4C1E00568848 = {
 			isa = PBXGroup;
 			children = (
+				A7D7D6CE1FBA999E00568848 /* User.swift */,
+				A7D7D6D01FBA9B5B00568848 /* Post.swift */,
 				A7D7D69D1FBA4C1E00568848 /* SelfieGram */,
 				A7D7D6B21FBA4C1F00568848 /* SelfieGramTests */,
 				A7D7D6BD1FBA4C1F00568848 /* SelfieGramUITests */,
@@ -102,6 +110,7 @@
 				A7D7D69E1FBA4C1E00568848 /* AppDelegate.swift */,
 				A7D7D6A01FBA4C1E00568848 /* ViewController.swift */,
 				A7D7D6A21FBA4C1E00568848 /* Main.storyboard */,
+				A7D7D6D21FBAA58E00568848 /* FeedViewController.swift */,
 				A7D7D6CC1FBA5BEF00568848 /* ProfileViewController.swift */,
 				A7D7D6A51FBA4C1E00568848 /* Assets.xcassets */,
 				A7D7D6A71FBA4C1E00568848 /* LaunchScreen.storyboard */,
@@ -262,9 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7D7D6CF1FBA999E00568848 /* User.swift in Sources */,
 				A7D7D6CD1FBA5BEF00568848 /* ProfileViewController.swift in Sources */,
 				A7D7D6A11FBA4C1E00568848 /* ViewController.swift in Sources */,
 				A7D7D69F1FBA4C1E00568848 /* AppDelegate.swift in Sources */,
+				A7D7D6D31FBAA58E00568848 /* FeedViewController.swift in Sources */,
+				A7D7D6D11FBA9B5B00568848 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

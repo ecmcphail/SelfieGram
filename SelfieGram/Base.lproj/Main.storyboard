@@ -52,7 +52,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="Dtc-fL-8hf"/>
                     <connections>
-                        <outlet property="ProfileViewController" destination="nuI-Hz-KQd" id="Ybe-sw-psr"/>
+                        <outlet property="profileImageView" destination="nuI-Hz-KQd" id="zkL-tH-IB6"/>
                         <outlet property="usernameLabel" destination="EIE-zB-scj" id="fxp-Fc-6Ey"/>
                     </connections>
                 </viewController>
@@ -88,13 +88,13 @@
         <!--News Feed Controller-->
         <scene sceneID="OVe-dl-zMt">
             <objects>
-                <tableViewController title="News Feed Controller" id="6O1-WT-QNb" sceneMemberID="viewController">
+                <tableViewController title="News Feed Controller" id="6O1-WT-QNb" customClass="FeedViewController" customModule="SelfieGram" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="mgH-II-hIm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="8sP-xU-xtj">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="postCell" id="8sP-xU-xtj">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8sP-xU-xtj" id="wbf-YS-gB7">
