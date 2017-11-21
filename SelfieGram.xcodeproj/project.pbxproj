@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7AF8FDC1FC3D52D002BC49F /* SelfieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF8FDB1FC3D52D002BC49F /* SelfieCell.swift */; };
 		A7D7D69F1FBA4C1E00568848 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D7D69E1FBA4C1E00568848 /* AppDelegate.swift */; };
 		A7D7D6A11FBA4C1E00568848 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D7D6A01FBA4C1E00568848 /* ViewController.swift */; };
 		A7D7D6A41FBA4C1E00568848 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D7D6A21FBA4C1E00568848 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A7AF8FDB1FC3D52D002BC49F /* SelfieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieCell.swift; sourceTree = "<group>"; };
 		A7D7D69B1FBA4C1E00568848 /* SelfieGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfieGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7D7D69E1FBA4C1E00568848 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7D7D6A01FBA4C1E00568848 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				A7D7D6A01FBA4C1E00568848 /* ViewController.swift */,
 				A7D7D6A21FBA4C1E00568848 /* Main.storyboard */,
 				A7D7D6D21FBAA58E00568848 /* FeedViewController.swift */,
+				A7AF8FDB1FC3D52D002BC49F /* SelfieCell.swift */,
 				A7D7D6CC1FBA5BEF00568848 /* ProfileViewController.swift */,
 				A7D7D6A51FBA4C1E00568848 /* Assets.xcassets */,
 				A7D7D6A71FBA4C1E00568848 /* LaunchScreen.storyboard */,
@@ -273,6 +276,7 @@
 			files = (
 				A7D7D6CF1FBA999E00568848 /* User.swift in Sources */,
 				A7D7D6CD1FBA5BEF00568848 /* ProfileViewController.swift in Sources */,
+				A7AF8FDC1FC3D52D002BC49F /* SelfieCell.swift in Sources */,
 				A7D7D6A11FBA4C1E00568848 /* ViewController.swift in Sources */,
 				A7D7D69F1FBA4C1E00568848 /* AppDelegate.swift in Sources */,
 				A7D7D6D31FBAA58E00568848 /* FeedViewController.swift in Sources */,
