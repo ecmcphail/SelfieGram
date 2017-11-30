@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A72B68EB1FCFB10000F9E260 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B68EA1FCFB10000F9E260 /* Activity.swift */; };
 		A7AF8FDC1FC3D52D002BC49F /* SelfieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF8FDB1FC3D52D002BC49F /* SelfieCell.swift */; };
 		A7D7D69F1FBA4C1E00568848 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D7D69E1FBA4C1E00568848 /* AppDelegate.swift */; };
 		A7D7D6A11FBA4C1E00568848 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D7D6A01FBA4C1E00568848 /* ViewController.swift */; };
@@ -42,6 +43,7 @@
 /* Begin PBXFileReference section */
 		326325BA212FA37DBEB62DE3 /* Pods-SelfieGram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfieGram.release.xcconfig"; path = "Pods/Target Support Files/Pods-SelfieGram/Pods-SelfieGram.release.xcconfig"; sourceTree = "<group>"; };
 		94ACD2101C61E2E22ABA3975 /* Pods-SelfieGram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfieGram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SelfieGram/Pods-SelfieGram.debug.xcconfig"; sourceTree = "<group>"; };
+		A72B68EA1FCFB10000F9E260 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 		A7AF8FDB1FC3D52D002BC49F /* SelfieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieCell.swift; sourceTree = "<group>"; };
 		A7D7D69B1FBA4C1E00568848 /* SelfieGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfieGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7D7D69E1FBA4C1E00568848 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 		A7D7D6921FBA4C1E00568848 = {
 			isa = PBXGroup;
 			children = (
+				A72B68EA1FCFB10000F9E260 /* Activity.swift */,
 				A7D7D6CE1FBA999E00568848 /* User.swift */,
 				A7D7D6D01FBA9B5B00568848 /* Post.swift */,
 				A7D7D69D1FBA4C1E00568848 /* SelfieGram */,
@@ -363,6 +366,7 @@
 				A7D7D6A11FBA4C1E00568848 /* ViewController.swift in Sources */,
 				A7D7D69F1FBA4C1E00568848 /* AppDelegate.swift in Sources */,
 				A7D7D6D31FBAA58E00568848 /* FeedViewController.swift in Sources */,
+				A72B68EB1FCFB10000F9E260 /* Activity.swift in Sources */,
 				A7D7D6D11FBA9B5B00568848 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -120,19 +120,38 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ikF-BN-94M">
+                                            <rect key="frame" x="344" y="269" width="23" height="20"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="20" id="Jcm-rF-IZA"/>
+                                                <constraint firstAttribute="width" constant="23" id="zAy-AR-cKj"/>
+                                            </constraints>
+                                            <state key="normal" title="Button" image="hearts-off"/>
+                                            <state key="selected" image="hearts-on"/>
+                                            <connections>
+                                                <action selector="likeButtonClickedWithSender:" destination="8sP-xU-xtj" eventType="touchUpInside" id="6DP-ba-y7m"/>
+                                            </connections>
+                                        </button>
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="0Qm-Lm-9Iy" firstAttribute="leading" secondItem="wbf-YS-gB7" secondAttribute="leadingMargin" id="2pX-3t-HlA"/>
+                                        <constraint firstItem="ikF-BN-94M" firstAttribute="top" secondItem="3ft-TO-OEe" secondAttribute="bottom" constant="8" id="3uh-rK-NEB"/>
+                                        <constraint firstItem="ikF-BN-94M" firstAttribute="top" secondItem="3ft-TO-OEe" secondAttribute="bottom" constant="8" id="6pC-SY-IDw"/>
                                         <constraint firstItem="3ft-TO-OEe" firstAttribute="leading" secondItem="wbf-YS-gB7" secondAttribute="leadingMargin" id="EoT-wQ-Fwo"/>
+                                        <constraint firstItem="ikF-BN-94M" firstAttribute="top" secondItem="3ft-TO-OEe" secondAttribute="bottom" constant="8" id="LuF-2J-cwB"/>
                                         <constraint firstItem="bZn-Ry-6qx" firstAttribute="leading" secondItem="0Qm-Lm-9Iy" secondAttribute="leading" id="QlK-bg-qXT"/>
                                         <constraint firstItem="3ft-TO-OEe" firstAttribute="top" secondItem="wbf-YS-gB7" secondAttribute="topMargin" id="RPm-cl-c6n"/>
+                                        <constraint firstItem="ikF-BN-94M" firstAttribute="top" secondItem="3ft-TO-OEe" secondAttribute="bottom" constant="8" id="XBh-s1-dTU"/>
                                         <constraint firstItem="0Qm-Lm-9Iy" firstAttribute="top" secondItem="3ft-TO-OEe" secondAttribute="bottom" constant="8" id="all-aS-Zek"/>
+                                        <constraint firstItem="ikF-BN-94M" firstAttribute="trailing" secondItem="wbf-YS-gB7" secondAttribute="trailingMargin" constant="8" id="cKy-d4-Fdm"/>
+                                        <constraint firstAttribute="trailing" secondItem="ikF-BN-94M" secondAttribute="trailing" constant="8" id="qEQ-iN-vCl"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="3ft-TO-OEe" secondAttribute="trailing" id="tFn-DC-QdI"/>
                                         <constraint firstItem="bZn-Ry-6qx" firstAttribute="top" secondItem="0Qm-Lm-9Iy" secondAttribute="bottom" constant="8" id="vRJ-Ag-MOk"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="commentLabel" destination="bZn-Ry-6qx" id="3e1-ko-UW1"/>
+                                    <outlet property="likeButton" destination="ikF-BN-94M" id="VaD-GC-cWz"/>
                                     <outlet property="selfieImageView" destination="3ft-TO-OEe" id="6k8-Cr-NZN"/>
                                     <outlet property="usernameLabel" destination="0Qm-Lm-9Iy" id="1o3-AD-ZRP"/>
                                 </connections>
@@ -154,7 +173,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UQ5-FF-8ef" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1735" y="152"/>
+            <point key="canvasLocation" x="1733.5999999999999" y="151.57421289355324"/>
         </scene>
         <!--Activities Controller-->
         <scene sceneID="Ndt-f1-S59">
@@ -250,6 +269,8 @@
         <image name="Activities" width="25" height="25"/>
         <image name="NewsFeed" width="25" height="25"/>
         <image name="Profile" width="25" height="25"/>
+        <image name="hearts-off" width="42" height="37"/>
+        <image name="hearts-on" width="42" height="37"/>
         <image name="placeholder" width="256" height="256"/>
     </resources>
 </document>
