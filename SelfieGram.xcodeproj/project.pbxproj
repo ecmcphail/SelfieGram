@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A72B68EB1FCFB10000F9E260 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B68EA1FCFB10000F9E260 /* Activity.swift */; };
+		A764FF481FD64BCC00CAEE31 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A764FF471FD64BCC00CAEE31 /* ActivityViewController.swift */; };
+		A764FF4A1FD64BFE00CAEE31 /* ActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A764FF491FD64BFE00CAEE31 /* ActivityCell.swift */; };
 		A7AF8FDC1FC3D52D002BC49F /* SelfieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF8FDB1FC3D52D002BC49F /* SelfieCell.swift */; };
 		A7D7D69F1FBA4C1E00568848 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D7D69E1FBA4C1E00568848 /* AppDelegate.swift */; };
 		A7D7D6A11FBA4C1E00568848 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D7D6A01FBA4C1E00568848 /* ViewController.swift */; };
@@ -44,6 +46,8 @@
 		326325BA212FA37DBEB62DE3 /* Pods-SelfieGram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfieGram.release.xcconfig"; path = "Pods/Target Support Files/Pods-SelfieGram/Pods-SelfieGram.release.xcconfig"; sourceTree = "<group>"; };
 		94ACD2101C61E2E22ABA3975 /* Pods-SelfieGram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfieGram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SelfieGram/Pods-SelfieGram.debug.xcconfig"; sourceTree = "<group>"; };
 		A72B68EA1FCFB10000F9E260 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		A764FF471FD64BCC00CAEE31 /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		A764FF491FD64BFE00CAEE31 /* ActivityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCell.swift; sourceTree = "<group>"; };
 		A7AF8FDB1FC3D52D002BC49F /* SelfieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieCell.swift; sourceTree = "<group>"; };
 		A7D7D69B1FBA4C1E00568848 /* SelfieGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfieGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7D7D69E1FBA4C1E00568848 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -141,6 +145,8 @@
 				A7D7D6A21FBA4C1E00568848 /* Main.storyboard */,
 				A7D7D6D21FBAA58E00568848 /* FeedViewController.swift */,
 				A7AF8FDB1FC3D52D002BC49F /* SelfieCell.swift */,
+				A764FF471FD64BCC00CAEE31 /* ActivityViewController.swift */,
+				A764FF491FD64BFE00CAEE31 /* ActivityCell.swift */,
 				A7D7D6CC1FBA5BEF00568848 /* ProfileViewController.swift */,
 				A7D7D6A51FBA4C1E00568848 /* Assets.xcassets */,
 				A7D7D6A71FBA4C1E00568848 /* LaunchScreen.storyboard */,
@@ -362,8 +368,10 @@
 			files = (
 				A7D7D6CF1FBA999E00568848 /* User.swift in Sources */,
 				A7D7D6CD1FBA5BEF00568848 /* ProfileViewController.swift in Sources */,
+				A764FF4A1FD64BFE00CAEE31 /* ActivityCell.swift in Sources */,
 				A7AF8FDC1FC3D52D002BC49F /* SelfieCell.swift in Sources */,
 				A7D7D6A11FBA4C1E00568848 /* ViewController.swift in Sources */,
+				A764FF481FD64BCC00CAEE31 /* ActivityViewController.swift in Sources */,
 				A7D7D69F1FBA4C1E00568848 /* AppDelegate.swift in Sources */,
 				A7D7D6D31FBAA58E00568848 /* FeedViewController.swift in Sources */,
 				A72B68EB1FCFB10000F9E260 /* Activity.swift in Sources */,

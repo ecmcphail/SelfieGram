@@ -60,6 +60,7 @@ class ProfileViewController: UIViewController, UIImagePickerControllerDelegate, 
         super.viewDidLoad()
         usernameLabel.text = "Emma"
         // Do any additional setup after loading the view.
+        navigationItem.titleView = UIImageView(image: UIImage(named: "Selfigram-logo"))
     }
 
     override func didReceiveMemoryWarning() {
